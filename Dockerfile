@@ -19,7 +19,7 @@ RUN rm -rf v3.4.1.tar*
 RUN rm -rf sipp-3.4.1
 
 VOLUME /scens
-VOLUME .logs
+VOLUME /logs
 
 EXPOSE 5060-5070
 
